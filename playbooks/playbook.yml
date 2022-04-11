@@ -1,0 +1,8 @@
+- name: uruchom role packages
+  hosts: all
+  connection: local
+  become: true
+
+  roles:
+    - packages
+    - user
