@@ -2,6 +2,11 @@
   hosts: all
   connection: local
   become: true
+  vars:
+    docker_users:
+      - panda
+  
+
 
   roles:
     - packages
@@ -11,5 +16,4 @@
     - christiangda.awscli_configure
     - diodonfrost.terraform
 
-  docker_users:
-    - panda
+  
