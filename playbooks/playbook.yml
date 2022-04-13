@@ -10,3 +10,6 @@
     - christiangda.awscli
     - christiangda.awscli_configure
     - diodonfrost.terraform
+
+  docker_users:
+    - panda
