@@ -7,5 +7,5 @@ roles:
   - name: christiangda.awscli_configure
     version: 0.0.5
   - name: robertdebock.terraform
-    version: 0.0.2
+    version: 1.6.1
 
